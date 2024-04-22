@@ -70,6 +70,35 @@
 {
    Suppress leveldb leak
    Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:_ZN7leveldb6DBImpl14BackgroundCallEv
+}{
+   Suppress leveldb leak
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:_ZN7leveldb6DBImpl14BackgroundCallEv
+}{
+   Suppress leveldb leak
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:_ZN7leveldb6DBImpl14BackgroundCallEv
+}{
+   Suppress leveldb leak
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+   fun:_ZN7leveldb6DBImpl14BackgroundCallEv
+}
+{
+   Suppress leveldb leak
+   Memcheck:Leak
    fun:_Znwm
    ...
    fun:GetCoin
